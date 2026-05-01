@@ -23,7 +23,7 @@ function MireaEng() {
     }
 
     return (
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 pl-[5%] pr-[5%]">
             <nav
                 className="flex justify-center gap-4 mt-10"
             >
