@@ -18,7 +18,8 @@ function Definitions() {
                     return (<div key={ s } className="flex gap-2">
                         <p>{ word }</p>
                         <p
-                            className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg text-wrap` }
+                            className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg text-wrap
+                            hover:cursor-pointer` }
                             onClick={() => toggleWord(ind, displays, setDisplays)}
                         >
                             { def }

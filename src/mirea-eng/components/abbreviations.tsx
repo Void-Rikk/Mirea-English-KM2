@@ -18,7 +18,8 @@ function Abbreviations() {
                     return (<div key={ s } className="flex gap-2">
                         <p>{ leftPart }</p>
                         <p
-                            className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg` }
+                            className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg
+                            hover:cursor-pointer` }
                             onClick={() => toggleWord(ind, displays, setDisplays)}
                         >
                             { rightPart }
