@@ -1,0 +1,1 @@
+export type Topic = "translations" | "abbreviations" | "definitions";
