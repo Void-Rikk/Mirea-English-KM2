@@ -428,7 +428,7 @@ function Definitions() {
                     const word = s.substring(0, s.indexOf("-") + 1);
                     const def = s.substring(s.indexOf("-") + 1, s.length);
                     return (<div key={ s } className="flex gap-2">
-                        <p>{ word}</p>
+                        <p>{ word }</p>
                         <p
                             className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg text-wrap` }
                             onClick={() => toggleWord(ind)}

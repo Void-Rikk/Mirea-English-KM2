@@ -120,7 +120,7 @@ function Abbreviations() {
                 parsedString.map((s, ind) => {
                     const leftPart = s.substring(0, s.indexOf("—") + 2);
                     const rightPart = s.substring(s.indexOf("—") + 2, s.length);
-                    return (<div key={ s } className="flex self-start">
+                    return (<div key={ s } className="flex gap-2">
                         <p>{ leftPart }</p>
                         <p
                             className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg` }

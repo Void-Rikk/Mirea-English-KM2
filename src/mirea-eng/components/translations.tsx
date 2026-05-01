@@ -300,7 +300,7 @@ function Translations() {
                     const leftPart = s.substring(0, s.indexOf(".") + 1);
                     const darkPart = s.substring(s.indexOf(".") + 1, s.indexOf("–"));
                     const rightPart = s.substring(s.indexOf("–"), s.length);
-                    return (<div key={ s } className="flex">
+                    return (<div key={ s } className="flex gap-2">
                         <p>{ leftPart }</p>
                         <p
                             className={ `${displays[ind] ? "bg-transparent" : "bg-black"} transition-all rounded-lg text-wrap` }
